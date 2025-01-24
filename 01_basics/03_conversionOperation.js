@@ -8,6 +8,8 @@ console.log(typeof (age));
 //conversion string to number
 let valueInNumber = Number(age) // dhyan rakhne ki 'Number'use kiya jata h kisi ko number formate me change krne ke liye
 console.log(typeof valueInNumber);
+console.log(valueInNumber);
+
 console.log(valueInNumber);//output is NaN because it is also a datatype (given string in number_alphabate(21abc)type )
 let value = null
 console.log(typeof value);//output is 0
@@ -52,3 +54,9 @@ let str2 = "vikram"
 console.log(str1+str2);
 console.log("1"+2);
 console.log(1+"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
+//compartion (<,>,=,=!,<=,>=) output give as boolean (true,false) values
+console.log(null>0);
+console.log(null==0);
+console.log(null>=0);

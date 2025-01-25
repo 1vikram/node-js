@@ -41,3 +41,23 @@ console.log(myFunction);
 // Array     -> Object
 // function  -> Function
 // Object    -> Object
+
+//**************************************************memory***********************************************/
+// stack memory(primitive) , Heap memory(nonprimitive)
+
+let myName = "vikram"
+let otherName = myName
+otherName = "VK"        // if we comment this then both consol are give same vale
+console.log(myName);
+console.log(otherName);
+
+let userOne ={                                  // nonprimitive data type ka reference ni milta blki
+    name: "vikram",                             // original me change hota h isliye Email change huaa
+    Email: "virkamkataria@gmail.com",           // or myName change ni huaa wo static memory hai us me 
+    upiId: "vikram@ybl"                         // data ki copy bnai jati h or wo change hoti hai
+}
+let userTwo = userOne
+
+userTwo.Email = "vk@gmail.com"
+console.log(userOne.Email);
+console.log(userTwo.Email);

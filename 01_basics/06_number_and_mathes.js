@@ -4,6 +4,8 @@ console.log(score);
 const balance = new Number(100)
 console.log(balance);
 
+console.log(balance.toString());  //to convert number into string
+
 console.log(balance.toLocaleString().length); // 3
 console.log(balance.toFixed(2));  // 100.00
 
@@ -31,4 +33,3 @@ const min = 10
 const max = 20
 
 console.log(Math.floor (Math.random() * ( max - min + 1) + min)); // give the value b/w max and min
-

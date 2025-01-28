@@ -16,3 +16,8 @@ console.log(myTimeStamp);
 console.log(myCreatedDate.getTime());
 console.log(Date.now());  // mili sec till now
 console.log(Math.floor(Date.now()/1000));  // sec till now
+
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getMonth()+1);
+console.log(newDate.getDay());  // monday se start hote h days
